@@ -56,11 +56,11 @@ public class Main {
                     continue convo;
                 }
             }
-            if (resp.contains("west")) {
-                System.out.println("Western Conference Standings:\n1. Green Bay Packers (8-2)\n2. Arizona Cardinals (8-2)\n3. Dallas Cowboys (7-2)\n4. Los Angeles Rams (7-2)\n5. Tampa Bay Buccaneers (6-3)\n6. New Orleans Saints (5-4)\n7. Carolina Panthers (5-5)\n8. Minnesota Vikings (4-5)\n9. Atlanta Falcons (4-5)\n10. Philadelphia Eagles (4-6)\n11. San Francisco 49ers (3-5)\n12. Washington Football Team (3-6)\n13. New York Giants (3-6)\n14. Seattle Seahawks (3-6)\n15. Chicago Bears (3-6)\n16. Detroit Lions (0-8-1)");
+            if (resp.contains("nfc")) {
+                System.out.println("NFC Standings:\n1. Green Bay Packers (8-2)\n2. Arizona Cardinals (8-2)\n3. Dallas Cowboys (7-2)\n4. Los Angeles Rams (7-2)\n5. Tampa Bay Buccaneers (6-3)\n6. New Orleans Saints (5-4)\n7. Carolina Panthers (5-5)\n8. Minnesota Vikings (4-5)\n9. Atlanta Falcons (4-5)\n10. Philadelphia Eagles (4-6)\n11. San Francisco 49ers (3-5)\n12. Washington Football Team (3-6)\n13. New York Giants (3-6)\n14. Seattle Seahawks (3-6)\n15. Chicago Bears (3-6)\n16. Detroit Lions (0-8-1)");
             } 
-            else if (resp.contains("east")) {
-                System.out.println("Eastern Conference Standings:\n1. Tennessee Titans (8-2)\n2. Buffalo Bills (6-3)\n3. Baltimore Ravens (6-3)\n4. Pittsburgh Steelers (5-3-1)\n5. Kansas City Chiefs (6-4)\n6. New England Patriots (6-4)\n7. Los Angeles Chargers (5-4)\n8. Las Vegas Raiders (5-4))\n9. Cincinnati Bengals (5-4)\n10. Indianapolis Colts (5-5)\n11. Cleveland Browns (5-5)\n12. Denver Broncos (5-5)\n13. Miami Dolphins (3-7)\n14. New York Jets (2-7)\n15. Jacksonville Jaguars (2-7)\n16. Houston Texans (1-8)");
+            else if (resp.contains("afc")) {
+                System.out.println("AFC Standings:\n1. Tennessee Titans (8-2)\n2. Buffalo Bills (6-3)\n3. Baltimore Ravens (6-3)\n4. Pittsburgh Steelers (5-3-1)\n5. Kansas City Chiefs (6-4)\n6. New England Patriots (6-4)\n7. Los Angeles Chargers (5-4)\n8. Las Vegas Raiders (5-4))\n9. Cincinnati Bengals (5-4)\n10. Indianapolis Colts (5-5)\n11. Cleveland Browns (5-5)\n12. Denver Broncos (5-5)\n13. Miami Dolphins (3-7)\n14. New York Jets (2-7)\n15. Jacksonville Jaguars (2-7)\n16. Houston Texans (1-8)");
             }
             else if (resp.contains("rankings")) {
                 System.out.println("Hi, do you want rankings of all 32 teams and their players?");
